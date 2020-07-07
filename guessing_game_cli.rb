@@ -6,7 +6,7 @@ def run_guessing_game
   puts message
   
   random_num = rand(6) + 1
-  input = gets.chomp
+  input = gets.chomp.to_s
   
   if input == random_num
     puts "You guessed the correct number!"
