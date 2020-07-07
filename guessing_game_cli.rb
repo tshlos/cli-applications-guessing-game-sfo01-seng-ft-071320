@@ -9,9 +9,9 @@ def run_guessing_game
   
   if input == "exit"
     puts "Goodbye!"
-  elsif input == random_num
-    return "You guessed the correct number!"
   elsif input != random_num
     return "Sorry! The computer guessed #{random_num}."
+  else
+    return "You guessed the correct number!"
   end
 end
