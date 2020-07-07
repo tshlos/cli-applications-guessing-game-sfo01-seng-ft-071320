@@ -6,8 +6,8 @@ def run_guessing_game
   puts message
   
   random_num = rand(6) + 1
-  input_str = gets.chomp
-  input_num = gets.to_i
+  input = gets.chomp
+
 
   
   if input_num == random_num
