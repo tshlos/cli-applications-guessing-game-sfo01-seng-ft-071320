@@ -8,9 +8,12 @@ def run_guessing_game
   
   while input != "exit" do
     if input != random_num
+      
       puts "Sorry! The computer guessed #{random_num}."
-    elsif input
-    end
+      
+      elsif input == random_num
+      puts 
+      end
   end
   
   
