@@ -8,8 +8,8 @@ def run_guessing_game
   input_num = gets.to_i
 
   
-  if input_str == "exit"
-    puts "Goodbye!"
+  if input_str
+    "Goodbye!"
   end 
   # if input_num == random_num
   #   puts "You guessed the correct number!"
