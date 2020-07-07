@@ -7,13 +7,11 @@ def run_guessing_game
   
   random_num = rand(6) + 1
   input = gets.chomp
-
-
   
-  if input_num == random_num
+  if input == random_num
     puts "You guessed the correct number!"
     return
-  elsif input_num != random_num
+  elsif input != random_num
     puts "Sorry! The computer guessed #{random_num}."
     return
   else 
