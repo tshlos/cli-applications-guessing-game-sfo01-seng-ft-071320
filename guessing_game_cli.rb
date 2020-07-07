@@ -3,7 +3,7 @@ require 'pry'
 
 def run_guessing_game
   puts "Guess a number between 1 and 6"
-  input = gets.chomp.to_s
+  input = gets.chomp
   random_num = rand(6) + 1
   
   
